@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Slide Home 1]]></title>
+      <identifier><![CDATA[block_home_slide]]></identifier>
+      <content><![CDATA[{{widget type="Vicomage\Slider\Block\Widget\Slider" setIdentity="home-slide"}}]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Banner Sidebar]]></title>
+      <identifier><![CDATA[block_banner_sidebar]]></identifier>
+      <content><![CDATA[<div class="banner-sidebar"><img class="img-responsive" src="{{media url="wysiwyg/vicomage/static/banner-sidebar.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Top Type 1]]></title>
+      <identifier><![CDATA[block_footer_top_type1]]></identifier>
+      <content><![CDATA[<div class="footer-newletter-bg bg-parallax">
+	<div class="footer-newletter-content">
+		<h3 class="block-title">Newsletter!</h3>
+		<div class="text-newletter">Sign Up for Our Newsletter!</div>
+		{{block class="Magento\Newsletter\Block\Subscribe" name="footer.newsletter" template="subscribe_footer.phtml"}}
+		<div class="social-list">
+			<ul class="list-inline">
+				<li><a href="#" class="social-link"><i class="fa fa-facebook"><span class="hidden">facebook</span></i></a></li>
+				<li><a href="#" class="social-link"><i class="fa fa-twitter"><span class="hidden">twitter</span></i></a></li>
+				<li><a href="#" class="social-link"><i class="fa fa-linkedin"><span class="hidden">linkedin</span></i></a></li>
+				<li><a href="#" class="social-link"><i class="fa fa-rss"><span class="hidden">rss</span></i></a></li>
+				<li><a href="#" class="social-link"><i class="fa fa-dribbble"><span class="hidden">dribbble</span></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Middle Type1]]></title>
+      <identifier><![CDATA[block_footer_middle_type1]]></identifier>
+      <content><![CDATA[<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<div class="logo-footer">
+							<img src="{{media url="wysiwyg/vicomage/footer/logo-footer.png"}}" alt="" />
+						</div>
+						<div class="toggle-content">
+							<div class="block1 block-content-statick">
+								<ul class="address-list">
+									<li class="feature-icon first">
+										<p class="no-margin"><span class="tit-contain">Suspendisse metus diam, pulvinar non dignis sim imperdiet nulla. Sus ma lesuada diam id ante mole.</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-map-marker"></i></span><span class="tit-contain">262 Milacina Mrest Street Paris France</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-phone"></i></span><span class="tit-contain">+88 3333 6789</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-envelope-o" ></i></span><span class="tit-contain">contact@fashion.com</span></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Information</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Your Account</a></li>
+								<li><a href="#">Our Store</a></li>
+								<li><a href="#">Gift Vouchers</a></li>
+								<li><a href="#">Fast Delivery</a></li>
+								<li><a href="#">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Our Offer</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Order &amp; Returns</a></li>
+								<li><a href="#">Shipping Guide</a></li>
+								<li><a href="#">Advance Search</a></li>
+								<li><a href="#">Affiliate</a></li>
+								<li><a href="#">Privacy &amp; Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible"> 
+						<h3 class="heading"><span class="block-title">instagram</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick">
+							<ul class="instagram-list">
+								<li><a href="#"><img src="{{media url="wysiwyg/vicomage/footer/instagram.jpg"}}" alt="" /></a></li>
+								<li><a href="#"><img src="{{media url="wysiwyg/vicomage/footer/instagram.jpg"}}" alt="" /></a></li>
+								<li><a href="#"><img src="{{media url="wysiwyg/vicomage/footer/instagram.jpg"}}" alt="" /></a></li>
+								<li><a href="#"><img src="{{media url="wysiwyg/vicomage/footer/instagram.jpg"}}" alt="" /></a></li>
+								<li><a href="#"><img src="{{media url="wysiwyg/vicomage/footer/instagram.jpg"}}" alt="" /></a></li>
+								<li><a href="#"><img src="{{media url="wysiwyg/vicomage/footer/instagram.jpg"}}" alt="" /></a></li>
+								<li><a href="#"><img src="{{media url="wysiwyg/vicomage/footer/instagram.jpg"}}" alt="" /></a></li>
+								<li><a href="#"><img src="{{media url="wysiwyg/vicomage/footer/instagram.jpg"}}" alt="" /></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Bottom Type1]]></title>
+      <identifier><![CDATA[block_footer_bottom_type1]]></identifier>
+      <content><![CDATA[<div class="footer-payment"><img src="{{media url="wysiwyg/vigotheme/static/img-payment.png"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Custom Block Tab]]></title>
+      <identifier><![CDATA[custom_block_tab]]></identifier>
+      <content><![CDATA[<table class="table table-sizing-guide">
+    <thead>
+        <tr>
+            <th colspan="6"><b>Clothing - Single Size Conversion (Continued)</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>UK</td>
+            <td>18</td>
+            <td>20</td>
+            <td>22</td>
+            <td>24</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>European</td>
+            <td>46</td>
+            <td>48</td>
+            <td>50</td>
+            <td>52</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>US</td>
+            <td>14</td>
+            <td>16</td>
+            <td>18</td>
+            <td>20</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Australia</td>
+            <td>8</td>
+            <td>10</td>
+            <td>12</td>
+            <td>14</td>
+            <td>16</td>
+        </tr>
+    </tbody>
+</table>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Middle Type2]]></title>
+      <identifier><![CDATA[block_footer_middle_type2]]></identifier>
+      <content><![CDATA[<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<div class="logo-footer">
+							<img src="{{media url="wysiwyg/vicomage/footer/logo.png"}}" alt="" />
+						</div>
+						<div class="toggle-content">
+							<div class="block1 block-content-statick">
+								<ul class="address-list">
+									<li class="feature-icon first">
+										<p class="no-margin"><span class="tit-contain">Suspendisse metus diam, pulvinar non dignis sim imperdiet nulla. Sus ma lesuada diam id ante mole.</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-map-marker"></i></span><span class="tit-contain">262 Milacina Mrest Street Paris France</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-phone"></i></span><span class="tit-contain">+88 3333 6789</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-envelope-o" ></i></span><span class="tit-contain">contact@fashion.com</span></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Information</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Your Account</a></li>
+								<li><a href="#">Our Store</a></li>
+								<li><a href="#">Gift Vouchers</a></li>
+								<li><a href="#">Fast Delivery</a></li>
+								<li><a href="#">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Our Offer</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Order &amp; Returns</a></li>
+								<li><a href="#">Shipping Guide</a></li>
+								<li><a href="#">Advance Search</a></li>
+								<li><a href="#">Affiliate</a></li>
+								<li><a href="#">Privacy &amp; Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible"> 
+						<h3 class="heading"><span class="block-title">newsletter</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick">
+							{{block class="Magento\Newsletter\Block\Subscribe" name="static.newsletter" template="Magento_Newsletter::subscribe.phtml"}}
+						</div>
+					</div>
+				</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Bottom Type2,Type3]]></title>
+      <identifier><![CDATA[block_footer_bottom_type2]]></identifier>
+      <content><![CDATA[<div class="footer-bottom-content">
+	<ul class="footer-link-bottom">
+		<li class="first"><a href="#">About us</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">Faq</a></li>
+		<li><a href="#">Terms</a></li>
+		<li class="last"><a href="#">Site Map</a></li>
+	</ul>
+	<small class="copyright">
+		<span>Copyright &copy; 2016 <a href="#"> V&G</a>. All rights reserved.</span>
+	</small>
+	<div class="social-list">
+		<ul class="list-inline">
+			<li><a href="#" class="social-link"><i class="fa fa-facebook"><span class="hidden">facebook</span></i></a></li>
+			<li><a href="#" class="social-link"><i class="fa fa-twitter"><span class="hidden">twitter</span></i></a></li>
+			<li><a href="#" class="social-link"><i class="fa fa-linkedin"><span class="hidden">linkedin</span></i></a></li>
+			<li><a href="#" class="social-link"><i class="fa fa-rss"><span class="hidden">rss</span></i></a></li>
+			<li><a href="#" class="social-link"><i class="fa fa-dribbble"><span class="hidden">dribbble</span></i></a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Middle Type3]]></title>
+      <identifier><![CDATA[block_footer_middle_type3]]></identifier>
+      <content><![CDATA[<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<div class="logo-footer">
+							<img src="{{media url="wysiwyg/vicomage/footer/logo-footer.png"}}" alt="" />
+						</div>
+						<div class="toggle-content">
+							<div class="block1 block-content-statick">
+								<ul class="address-list">
+									<li class="feature-icon first">
+										<p class="no-margin"><span class="tit-contain">Suspendisse metus diam, pulvinar non dignis sim imperdiet nulla. Sus ma lesuada diam id ante mole.</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-map-marker"></i></span><span class="tit-contain">262 Milacina Mrest Street Paris France</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-phone"></i></span><span class="tit-contain">+88 3333 6789</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-envelope-o" ></i></span><span class="tit-contain">contact@fashion.com</span></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Information</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Your Account</a></li>
+								<li><a href="#">Our Store</a></li>
+								<li><a href="#">Gift Vouchers</a></li>
+								<li><a href="#">Fast Delivery</a></li>
+								<li><a href="#">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Our Offer</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Order &amp; Returns</a></li>
+								<li><a href="#">Shipping Guide</a></li>
+								<li><a href="#">Advance Search</a></li>
+								<li><a href="#">Affiliate</a></li>
+								<li><a href="#">Privacy &amp; Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible"> 
+						<h3 class="heading"><span class="block-title">newsletter</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick">
+							{{block class="Magento\Newsletter\Block\Subscribe" name="static.newsletter" template="Magento_Newsletter::subscribe.phtml"}}
+						</div>
+					</div>
+				</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Middle Type4]]></title>
+      <identifier><![CDATA[block_footer_middle_type4]]></identifier>
+      <content><![CDATA[<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<div class="logo-footer">
+							<img src="{{media url="wysiwyg/vicomage/footer/logo-footer.png"}}" alt="" />
+						</div>
+						<div class="toggle-content">
+							<div class="block1 block-content-statick">
+								<ul class="address-list">
+									<li class="feature-icon first">
+										<p class="no-margin"><span class="tit-contain">Suspendisse metus diam, pulvinar non dignis sim imperdiet nulla. Sus ma lesuada diam id ante mole.</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-map-marker"></i></span><span class="tit-contain">262 Milacina Mrest Street Paris France</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-phone"></i></span><span class="tit-contain">+88 3333 6789</span></p>
+									</li>
+									<li class="feature-icon">
+										<p><span class="tit-name"><i class="fa fa-envelope-o" ></i></span><span class="tit-contain">contact@fashion.com</span></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Information</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Your Account</a></li>
+								<li><a href="#">Our Store</a></li>
+								<li><a href="#">Gift Vouchers</a></li>
+								<li><a href="#">Fast Delivery</a></li>
+								<li><a href="#">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Our Offer</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Order &amp; Returns</a></li>
+								<li><a href="#">Shipping Guide</a></li>
+								<li><a href="#">Advance Search</a></li>
+								<li><a href="#">Affiliate</a></li>
+								<li><a href="#">Privacy &amp; Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-mobile-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="heading"><span class="block-title">Our Policy</span></h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+								<li><a href="#">Order &amp; Returns</a></li>
+								<li><a href="#">Shipping Guide</a></li>
+								<li><a href="#">Advance Search</a></li>
+								<li><a href="#">Affiliate</a></li>
+								<li><a href="#">Privacy &amp; Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Middle 2 Type 4]]></title>
+      <identifier><![CDATA[block_footer_middle2_type4]]></identifier>
+      <content><![CDATA[<div class="footer-middle-newletter">
+	<div class="footer-newletter-content">
+		<div class="text-newletter">Sign Up for Our Newsletter!</div>
+		{{block class="Magento\Newsletter\Block\Subscribe" name="footer.newsletter" template="subscribe_footer.phtml"}}
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[cms-static-content-bottom-home1]]></title>
+      <identifier><![CDATA[cms-static-content-bottom-home1]]></identifier>
+      <content><![CDATA[<div class="testimonial-wrapper" >
+	<div class="testimonial-content">
+	{{widget type="Vicomage\Testimonial\Block\Testimonial" enabled="1" title="Testimonials" template="Vicomage_Testimonial::testimonial.phtml" slide="1" vertical="false" infinite="true" autoplay="false" arrows="false" dots="true" fade="true" rows="1" speed="300" padding="15" mobile="1" portrait="1" landscape="1" tablet="1" notebook="1" desktop="1" visible="1"}}
+	</div>
+</div>
+<div class="product-home product-bestsellers">
+<div class="container">{{widget type="Vicomage\Multiwidget\Block\Widget" title="bestsellers" identifier="bestsellers" status="1" ajax="1" widget_product_type="category" category_ids="4,39,54" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]" product_category_collection="random" category_template="widget/category/default.phtml" limit="12" slide="1" vertical="false" infinite="false" autoplay="false" arrows="true" dots="false" speed="300" autoplayspeed="3000" rows="2" config_product="cart,compare,wishlist,review,quickview" mobile="1" portrait="2" landscape="2" tablet="3" notebook="3" desktop="3" visible="4"}}</div>
+</div>
+<div class="block-category-home">
+	<div class="title-page">
+		<h2 class="subtitle">our categories</h2>
+	</div>
+	<div class="container-none">
+		<div class="item-category col-lg-3 col-md-3 col-sm-6 nopadding">
+			<div class="item-category-content">
+				<a class="category-link" href="#">
+					<img class="img-responsive" src="{{media url="wysiwyg/vicomage/static/images-cate1.jpg"}}" alt="" />
+				</a>
+				<div class="item-category-text">
+					<h3><a href="#">mens</a></h3>
+					<h4><a href="#">50 products</a></h4>
+				</div>
+			</div>
+		</div>
+		<div class="item-category col-lg-3 col-md-3 col-sm-6 nopadding">
+			<div class="item-category-content">
+				<a class="category-link" href="#">
+					<img class="img-responsive" src="{{media url="wysiwyg/vicomage/static/images-cate2.jpg"}}" alt="" />
+				</a>
+				<div class="item-category-text">
+					<h3><a href="#">wommen</a></h3>
+					<h4><a href="#">50 products</a></h4>
+				</div>
+			</div>
+		</div>
+		<div class="item-category col-lg-3 col-md-3 col-sm-6 nopadding">
+			<div class="item-category-content">
+				<a class="category-link" href="#">
+					<img class="img-responsive" src="{{media url="wysiwyg/vicomage/static/images-cate3.jpg"}}" alt="" />
+				</a>
+				<div class="item-category-text">
+					<h3><a href="#">Shoes</a></h3>
+					<h4><a href="#">50 products</a></h4>
+				</div>
+			</div>
+		</div>
+		<div class="item-category col-lg-3 col-md-3 col-sm-6 nopadding">
+			<div class="item-category-content">
+				<a class="category-link" href="#">
+					<img class="img-responsive" src="{{media url="wysiwyg/vicomage/static/images-cate4.jpg"}}" alt="" />
+				</a>
+				<div class="item-category-text">
+					<h3><a href="#">bags</a></h3>
+					<h4><a href="#">50 products</a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="latest-home">
+<div class="container">
+<div class="row">{{widget type="Vicomage\Blog\Block\Widget\Recent" title="latest from blog" number_of_posts="5" show_thumbnail="1" thumbnail_width="240" thumbnail_height="180" show_short_content="1" limit_characters_short_content="100" view_as="slide" vertical="false" infinite="true" autoplay="false" arrows="true" dots="false" speed="300" autoplaySpeed="3000" padding="15" rows="1" mobile="1" portrait="1" landscape="2" tablet="2" notebook="3" desktop="3" visible="3"}}
+</div>
+</div>
+</div>
+<div class="brands-wrapper " >
+	<div class="container">
+		{{widget type="Vicomage\Brand\Block\Widget\Brand" template="brand.phtml" slide="1" vertical="false" infinite="true" autoplay="false" arrows="true" dots="false" rows="1" speed="300" autoplaySpeed="3000" padding="15" mobile="1" portrait="2" landscape="3" tablet="3" notebook="4" desktop="5" visible="6"}}
+	</div>
+</div>
+]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>

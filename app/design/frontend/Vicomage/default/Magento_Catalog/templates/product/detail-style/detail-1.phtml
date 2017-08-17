@@ -1,0 +1,19 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+?>
+<?php
+	$vico_helper = $this->helper('Vicomage\General\Helper\Data');
+	$product_config = $vico_helper->getConfig('vicomage_general_config/product');	
+	$detailStyle = $product_config['detail_style'];
+?>
+<div class="product-view <?php echo $detailStyle;?>">
+	<?php echo $block->getChildHtml('product.view'); ?>
+	<?php echo $block->getChildHtml('product.details.bottom'); ?>
+	<?php echo $block->getChildHtml('related.product'); ?>
+	<?php echo $block->getChildHtml('upsell.product'); ?>
+</div>

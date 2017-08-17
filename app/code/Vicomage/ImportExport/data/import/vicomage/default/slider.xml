@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <slider>
+    <item>
+      <name><![CDATA[Home Slide 1]]></name>
+      <identity><![CDATA[home-slide]]></identity>
+      <slider_params><![CDATA[{"1":{"image":"\/s\/l\/slide1.jpg","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-left\"><div class=\"text-slide text-slide2\">\r\n\t\t\t\t\t\t\t<h1 class=\"caption1\"><span>2016<\/span><\/h1>\r\n\t\t\t\t\t\t\t<h2 class=\"caption2\">New Colection<\/h2>\r\n\t\t\t\t\t\t\t<h4 class=\"caption3\">New fashion<\/h4>\r\n\t\t\t\t\t\t\t<h3 class=\"caption4\">Sale off 40%<\/h3>\r\n\t\t\t\t\t\t\t<h5 class=\"caption5\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">shop now<\/a><\/h5>\r\n\t\t\t\t\t\t<\/div><\/div>"},"2":{"image":"\/s\/l\/slide2.jpg","position":"1","url":"","description":"<div class=\"slide-caption\"><div class=\"text-slide text-slide2\">\r\n\t\t\t\t\t\t\t<h1 class=\"caption1\"><span>2016<\/span><\/h1>\r\n\t\t\t\t\t\t\t<h2 class=\"caption2\">New Colection<\/h2>\r\n\t\t\t\t\t\t\t<h4 class=\"caption3\">New fashion<\/h4>\r\n\t\t\t\t\t\t\t<h3 class=\"caption4\">Sale off 40%<\/h3>\r\n\t\t\t\t\t\t\t<h5 class=\"caption5\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">shop now<\/a><\/h5>\r\n\t\t\t\t\t\t<\/div><\/div>"}}]]></slider_params>
+      <width><![CDATA[1920]]></width>
+      <height><![CDATA[950]]></height>
+      <number><![CDATA[2]]></number>
+      <status><![CDATA[1]]></status>
+      <navigation><![CDATA[1]]></navigation>
+      <pagercontrol><![CDATA[1]]></pagercontrol>
+      <lazyload><![CDATA[0]]></lazyload>
+      <speed><![CDATA[]]></speed>
+      <auto_play><![CDATA[0]]></auto_play>
+      <autoplay_speed><![CDATA[]]></autoplay_speed>
+      <stop_on_hover><![CDATA[1]]></stop_on_hover>
+      <loop><![CDATA[0]]></loop>
+    </item>
+  </slider>
+</root>
