@@ -246,7 +246,7 @@
                             border-color: #ffffff;
                         }
                                 .header-content{
-                            color: #ffffff;
+                            color: #000000;
             
                             background-color: #ffffff;
             
@@ -258,7 +258,6 @@
                             background-color: #7f9392;
             
                             border-color: #ffffff;
-							display: none;
                         }
                                 .minicart-wrapper .block-minicart{
                             color: #ffffff;
