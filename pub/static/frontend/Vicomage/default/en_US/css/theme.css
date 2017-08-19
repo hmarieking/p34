@@ -1659,12 +1659,6 @@ footer.page-footer {
 .cms-home-5 .navigation .level0 > .level-top {
   color: #ffffff;
 }
-
-@media all and (max-width: 768px){
-	.cms-home-5 .navigation .level0 > .level-top {
-		color: #A9C3C2;
-	}
-}
 .cms-home-5 .header-search .icon-search,
 .cms-home-5 .header-content-right .header-setting .icon-setting,
 .cms-home-5 .minicart-wrapper .icons {
