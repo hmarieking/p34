@@ -8,7 +8,7 @@
 
 ?>
 <?php if ($detailedInfoGroup = $block->getGroupChildNames('detailed_info', 'getChildHtml')):?>
-<?php
+  <?php
     $vico_helper = $this->helper('Vicomage\General\Helper\Data');
     $_helper = $this->helper('Vicomage\General\Helper\Customtabs');
     $product_config = $vico_helper->getConfig('vicomage_general_config/product');
@@ -71,7 +71,7 @@
         </div>
         <?php elseif($tab_style && $tab_style == "vertical"): ?>
         <div class="product data items" data-mage-init='{"tabs":{"openedState":"active"}}'>
-			 
+
 				<div class="items-tabs">
 					 <?php foreach ($detailedInfoGroup as $name):?>
 						<?php
@@ -117,7 +117,7 @@
 							}
 						}
 					?>
-				
+
 				</div>
 				<div class="data-tabs-content">
 					 <?php foreach ($detailedInfoGroup as $name):?>
@@ -147,7 +147,7 @@
 							}
 						}
 					?>
-				</div>    
+				</div>
         </div>
         <?php endif; ?>
     </div>

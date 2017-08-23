@@ -124,7 +124,7 @@
 
 
 			   <container name="product.details.bottom" htmlTag="div" htmlClass="product-details-tab">
-					<block class="Magento\Catalog\Block\Product\View\Description" name="product.info.details" template="product/view/details.phtml" after="product.info.media">
+          <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.details" template="product/view/details.phtml" after="product.info.media">
 						<block class="Magento\Catalog\Block\Product\View\Description" name="product.info.description" template="product/view/attribute.phtml" group="detailed_info">
 							<arguments>
 								<argument name="at_call" xsi:type="string">getDescription</argument>
