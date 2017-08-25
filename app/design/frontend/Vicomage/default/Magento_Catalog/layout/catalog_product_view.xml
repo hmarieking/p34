@@ -47,7 +47,7 @@
 							<block class="Magento\Catalog\Block\Product\View\Gallery" name="product.info.media.image" template="product/view/gallery.phtml"/>
 						</container>
 						 <container name="product.info.main" htmlTag="div" htmlClass="product-info-main product-shop col-md-7 col-sm-7 col-xs-12" before="-">
-							<container name="product.info.price" label="Product info auxiliary container" htmlTag="div" htmlClass="product-info-price" after="product.info.review">
+							<container name="product.info.price" remove="true" label="Product info auxiliary container" htmlTag="div" htmlClass="product-info-price" after="product.info.review">
 								<container name="product.info.stock.sku" label="Product auxiliary info" htmlTag="div" htmlClass="product-info-stock-sku">
 									<container name="product.info.type" before="-"/>
 									<referenceBlock name="product.info.sku" remove="true" />
