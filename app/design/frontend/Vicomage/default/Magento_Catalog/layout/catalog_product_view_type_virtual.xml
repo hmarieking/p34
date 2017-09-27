@@ -14,5 +14,31 @@
 		<referenceContainer name="product.info.form.content" as="product_info_form_content">
 									<block class="Magento\Catalog\Block\Product\View" name="product.info.addtocart" as="addtocart" template="product/view/addtocart_virtual.phtml"/>
 								</referenceContainer>
+								 <referencecontainer name="product.details.bottom" htmlTag="div" htmlClass="product-details-tab">
+          <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.details" template="product/view/details.phtml" after="product.info.media">
+						<block class="Magento\Catalog\Block\Product\View\Description" name="product.info.description" template="product/view/attribute.phtml" group="detailed_info">
+							<arguments>
+								<argument name="at_call" xsi:type="string">getDescription</argument>
+								<argument name="at_code" xsi:type="string">description</argument>
+								<argument name="css_class" xsi:type="string">description</argument>
+								<argument name="at_label" xsi:type="string">none</argument>
+								<argument name="title" translate="true" xsi:type="string">Recipe</argument>
+							</arguments>
+						</block>
+						<block class="Magento\Catalog\Block\Product\View\Attributes" name="product.attributes" as="additional" template="product/view/attributes.phtml" group="detailed_info">
+							<arguments>
+								<argument translate="true" name="title" xsi:type="string">More Information</argument>
+							</arguments>
+						</block>
+					</block>
+					<block class="Magento\Cookie\Block\RequireCookie" name="require-cookie" template="Magento_Cookie::require_cookie.phtml">
+						<arguments>
+							<argument name="triggers" xsi:type="array">
+								<item name="compareProductLink" xsi:type="string">.action.tocompare</item>
+							</argument>
+						</arguments>
+					</block>
+				</referencecontainer>
+				<referenceBlock name="product.info.price" remove="true"/>
     </body>
 </page>

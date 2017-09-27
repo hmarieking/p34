@@ -71,7 +71,7 @@
 								</block>
 							</container>
 
-							<block class="Magento\Catalog\Pricing\Render" name="product.price.tier" after="product.info.price" remove="true">
+							<block class="Magento\Catalog\Pricing\Render" name="product.price.tier" after="product.info.price">
 								<arguments>
 									<argument name="price_render" xsi:type="string">product.price.render.default</argument>
 									<argument name="price_type_code" xsi:type="string">tier_price</argument>
@@ -131,7 +131,7 @@
 								<argument name="at_code" xsi:type="string">description</argument>
 								<argument name="css_class" xsi:type="string">description</argument>
 								<argument name="at_label" xsi:type="string">none</argument>
-								<argument name="title" translate="true" xsi:type="string">Recipe</argument>
+								<argument name="title" translate="true" xsi:type="string">Details</argument>
 							</arguments>
 						</block>
 						<block class="Magento\Catalog\Block\Product\View\Attributes" name="product.attributes" as="additional" template="product/view/attributes.phtml" group="detailed_info">
