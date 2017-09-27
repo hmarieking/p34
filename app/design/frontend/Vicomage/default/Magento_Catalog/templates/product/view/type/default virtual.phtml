@@ -11,7 +11,7 @@
 <?php $_product = $block->getProduct() ?>
 
 <?php if ($block->displayProductStockStatus()): ?>
-    <?php if ($_product->isAvailable()): ?>
+    <!--<?php if ($_product->isAvailable()): ?>
        <div class="stock available" title="<?php /* @escapeNotVerified */ echo __('Availability') ?>">
             <span><?php /* @escapeNotVerified */ echo __('In stock') ?></span>
         </div>
@@ -19,5 +19,5 @@
       <div class="stock unavailable" title="<?php /* @escapeNotVerified */ echo __('Availability') ?>">
             <span><?php /* @escapeNotVerified */ echo __('Out of stock') ?></span>
         </div>
-    <?php endif; ?>
+    <?php endif; ?>-->
 <?php endif; ?>
