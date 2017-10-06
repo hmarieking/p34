@@ -1,7 +1,7 @@
-                        body.page-layout-1column a,body.page-layout-2columns-left a,body.page-layout-2columns-right a,.block-collapsible-nav .item a{
+ 	                        body.page-layout-1column a,body.page-layout-2columns-left a,body.page-layout-2columns-right a,.block-collapsible-nav .item a{
                             color: #333333;
             
-                            background-color: #ffffff;
+                            background-color: transparent;
             
                             border-color: #ffffff;
                         }
@@ -97,6 +97,20 @@
                             border-color: #A9C3C2;
                         }
                                 .vicomage-slider .btn-shop:hover{
+                            color: #ffffff;
+            
+                            background-color: #657982;
+            
+                            border-color: #657982;
+                        }
+						.home-bg .btn-shop{
+                            color: #ffffff;
+            
+                            background-color: #A9C3C2;
+            
+                            border-color: #A9C3C2;
+                        }
+                                .home-bg .btn-shop:hover{
                             color: #ffffff;
             
                             background-color: #657982;
@@ -260,7 +274,7 @@
                             border-color: #ffffff;
                         }
                                 .minicart-wrapper .block-minicart{
-                            color: #ffffff;
+                            color: #333;
             
                             background-color: #ffffff;
             
@@ -330,7 +344,7 @@
                             border-color: #e8e8e8;
                         }
                                 .nav-sections .vicomage-megamenu li.level0 .submenu, .nav-sections .vicomage-megamenu li.level0.fullwidth .submenu li.level1 li .subchildmenu, .nav-sections .vicomage-megamenu li.level0.staticwidth .submenu li.level1 li .subchildmenu, .nav-sections .vicomage-megamenu li.level0.dropdown .submenu li .subchildmenu{
-                            color: #ffffff;
+                            color: #333 !important;
             
                             background-color: #ffffff;
             
