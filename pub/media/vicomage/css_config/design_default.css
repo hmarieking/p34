@@ -109,6 +109,9 @@
                             background-color: #A9C3C2;
             
                             border-color: #A9C3C2;
+							
+							padding: 1em;
+							text-transform: uppercase;
                         }
                                 .home-bg .btn-shop:hover{
                             color: #ffffff;
@@ -216,7 +219,7 @@
                             border-color: #ffffff;
                         }
                                 .opc-wrapper .shipping-address-item.selected-item{
-                            color: #ffffff;
+                            color: #333333;
             
                             background-color: #ffffff;
             
